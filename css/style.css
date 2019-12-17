@@ -1,10 +1,12 @@
 /*Site css*/
 body {
     font-family: 'Varela', sans-serif;
+    color:#3a3028;
     }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Clicker Script', cursive;
+    color:#17a2b8;
     }
 
 h2 {
@@ -16,28 +18,66 @@ h3 {
     }
 
 /**Navbar**/    
-.navbar{ 
-        z-index: 2;
+.navbar { 
+    z-index: 2;
     }
 
-.nav-link , .navbar-brand{ 
+.nav-link , .navbar-brand { 
     color: #3a3028; 
     cursor: pointer;
     }
 
-.nav-link{ 
+.nav-link { 
     margin-right: 1em !important;
     }
 
-.nav-link:hover{ 
+.nav-link:hover { 
     background: #17a2b8; 
     color: #ffffff; 
     }
 
-.navbar-toggler{  
+.navbar-toggler {  
     border-color:#3a3028 !important;
     }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=3a3028');
+    }
+
+/*header style*/
+.header {
+    background-image: url('../images/tablet-791051_1920.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    }
+
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    opacity: 0.5;
+    }
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+.description h1 {
+    text-align: center;
+    font-size: 5em;
+    right: 1em;
+    }
+
+.description p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
     }
