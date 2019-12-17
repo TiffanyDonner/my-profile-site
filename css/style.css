@@ -45,11 +45,17 @@ h3 {
     }
 
 /*header style*/
+#myVideo {
+    position: static;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  height: auto;
+}
+
 .header {
-    background-image: url('../images/tablet-791051_1920.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    height: cover;
+    width: cover;
     }
 
 .overlay {
