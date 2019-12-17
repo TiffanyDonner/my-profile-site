@@ -44,46 +44,74 @@ h3 {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=3a3028');
     }
 
-/*header style*/
-#myVideo {
-    position: static;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-  height: auto;
+/*jumbotron style*/
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:white;
+  height: 100vh;
+  margin-bottom: -6rem;
 }
 
-.header {
-    height: cover;
-    width: cover;
-    }
+.jumbotron video {
+  position: absolute;
+   z-index: +1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.6;
+}
 
-.overlay {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: #ffffff;
-    opacity: 0.5;
-    }
+.jumbotron .jumbo-container {
+  z-index: 1;
+  text-align: center;
+  position: relative;
+  margin-top: 70px;
+}   
 
-.description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-    }
-
-.description h1 {
-    text-align: center;
+.jumbotron .jumbo-container h1 {
     font-size: 5em;
-    right: 1em;
+}
+
+/*about style*/
+.about-container {
+    position:absolute;
+    background:-10;
+    z-index: +2;
+    padding: 15px;
+}
+
+.about-container img{
+    max-width: 100%;
+    height: auto;
     }
 
-.description p {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 900;
+.text-container {
+    margin-top: 30px;
+    }
+
+.about-container p{
+    line-height:2;
+    }
+
+/* Skew background */
+@media screen and (min-width: 768px) {
+.skew-c{
+    position:absolute;
+    z-index: +1;
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0) 49%, rgb(255,234,0) 50%);
+        }
+    }
+
+.about-background-grey {
+    background-color: rgb(255,234,0);
+    position:absolute;
+    height: 300px;
+    width: 100%;
     }

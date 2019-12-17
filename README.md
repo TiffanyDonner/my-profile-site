@@ -14,6 +14,14 @@ Cloudflare
 ## Credits
 Royalty fee images from:
 https://pixabay.com/illustrations/web-design-mockup-web-developer-2188728/
+https://pixabay.com/videos/ink-water-color-colorful-15452/
+
+Media modifications:
+slow motion: https://www.kapwing.com/
+file compression: https://www.youcompress.com/
+
+Code help:
+jumbotron: https://codepen.io/JacobLett/pen/LmWvLZ
 
 #Copywrite
 © Tiffany Donner
