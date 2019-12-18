@@ -5,6 +5,9 @@ This is a page to share my work experience, passions and projects. Simple and Cl
 This is my first project with code institute to exhibit what I have learn to date. This site 
 has been a long time coming... And still a work in progress.
 
+##tiffanydonner.com Screenshot
+![site image](/assets/images/screencapture-tiffanydonner-profilepage.png)
+
 ##Framework/Tech
 Bootstrap CDN
 Google Font
