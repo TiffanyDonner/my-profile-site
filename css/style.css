@@ -224,3 +224,8 @@ button[type="submit"] {
     color: #ffffff;
     background-color: #008000;
 }
+
+/*projects*/
+.img-thumbnail {
+    margin-bottom: 50px;
+    }
