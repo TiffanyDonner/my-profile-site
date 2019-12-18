@@ -17,6 +17,11 @@ h3 {
     font-size: 45px;
     }
 
+/* mouse over link */
+a:hover {
+    color: #008000;
+    }
+
 /**Navbar**/    
 .navbar { 
     z-index: 2;
@@ -55,7 +60,7 @@ h3 {
 
 .jumbotron video {
   position: absolute;
-   z-index: +1;
+  z-index: +1; 
   top: 0;
   width:100%;
   height:100%;
@@ -68,8 +73,14 @@ h3 {
   z-index: 1;
   text-align: center;
   position: relative;
-  margin-top: 70px;
-}   
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron .jumbo-container {
+    margin: 80px 15px 0px 15px;
+  }
+}
 
 .jumbotron .jumbo-container h1 {
     font-size: 5em;
@@ -77,10 +88,11 @@ h3 {
 
 /*about style*/
 .about-container {
-    position:absolute;
+    position: relative;
     background:-10;
     z-index: +2;
     padding: 15px;
+    margin-bottom: 50px;
 }
 
 .about-container img{
@@ -97,7 +109,7 @@ h3 {
     }
 
 /* Skew background */
-@media screen and (min-width: 768px) {
+
 .skew-c{
     position:absolute;
     z-index: +1;
@@ -107,11 +119,43 @@ h3 {
   left:0px;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0) 49%, rgb(255,234,0) 50%);
         }
+ 
+
+/* Footer */
+
+footer {
+    background-color: #17a2b8;
+    width: 100%;
+    height: 100%;
+}
+
+footer h3,h5 {
+    color: #ffffff;
+    margin: 15px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    font-size: 30px;
+    line-height: 5px;
+    text-align: center;
+    color: #ffea00;  
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
     }
 
-.about-background-grey {
-    background-color: rgb(255,234,0);
-    position:absolute;
-    height: 300px;
-    width: 100%;
+.social-links li a i:hover {
+    color: #008000; 
+    }
+
+.container {
+    max-width: 100%;
     }
