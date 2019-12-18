@@ -23,6 +23,7 @@ file compression: https://www.youcompress.com/
 Code help:
 jumbotron: https://codepen.io/JacobLett/pen/LmWvLZ
 divider/skew: https://codepen.io/chilliconcode/pen/epQORa
+page image header: https://startbootstrap.com/snippets/full-image-header/
 
 #Copywrite
 © Tiffany Donner
