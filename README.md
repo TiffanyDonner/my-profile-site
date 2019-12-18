@@ -1,9 +1,23 @@
 # Tiffany Donner - Creative Consultant and Developer
-This is a page to share my work experience, passions and projects. Simple and Clean
+Clean and Simple. A personal website where I can display my future and current projects, with a format that 
+can be expanded on later. To highlight the HTML and CSS that I learned so far through code institue.
+
+What do you want your site to accomplish?
+Acts as a place for me to display my development projects as they are completed.
+Has the ability to grow as I do.
+This is not a personal website nothing will be sold promoted.
 
 ## Motivation
-This is my first project with code institute to exhibit what I have learn to date. This site 
-has been a long time coming... And still a work in progress.
+This is my first project with code institute to exhibit what I have learn to date. 
+
+##Future updates:
+-Add in email.js library to connect contact form after completion of JavaScript class.
+-Add in a Blog for technical and business processes.
+
+#UX
+(Need to load in users, wireframes, style sheet, diagrams)
+
+
 
 ##tiffanydonner.com Screenshot
 ![site image](/assets/images/screencapture-tiffanydonner-profilepage.png)
