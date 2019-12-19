@@ -7,6 +7,9 @@ First Milestone Project - User-Centric Frontend Development - Code Institute
 ## UX
 The goal was to create a clean a personal website that was simple easy to navigate.
 
+### Skeleton
+![Wireframes](/assets/images/Profile-Page-Artboard.jpg "Brandingand Wireframes Image")
+
 ## Technologies
 ![HTML5, CSS, Bootstap4](/assets/images/technologies.png "HTML5, CSS, Bootstap4")
 
