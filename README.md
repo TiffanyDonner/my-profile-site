@@ -10,37 +10,15 @@ The goal was to create a clean a personal website that was simple easy to naviga
 ## Technologies
 ![HTML5, CSS, Bootstap4](/assets/images/technologies.png "HTML5, CSS, Bootstap4")
 
-## Framework
-Bootstrap CDN
-Google Font
-Jquery
-Cloudflare
+## Features
+..* The site uses a fixed navbar for easy navigation
+..* The jumbrotron video uses z-index and positioning to provide an overlapping row.
 
-What do you want your site to accomplish?
-Acts as a place for me to display my development projects as they are completed.
-Has the ability to grow as I do.
-This is not a personal website nothing will be sold promoted.
+### Future Feature Updates
+1. Activate the contact page to link to my email using JavaScript.
+2. A Blog, a place where I can share as I learn and where I can post business tips.
+3. Add more projects that I complete in the future. :smile:
 
-##Motivation
-This is my first project with code institute to exhibit what I have learn to date. 
-
-##Future updates:
--Add in email.js library to connect contact form after completion of JavaScript class.
--Add in a Blog for technical and business processes.
-
-#UX
-(Need to load in users, wireframes, style sheet, diagrams)
-
-
-
-##tiffanydonner.com Screenshot
-![site image](/assets/images/screencapture-tiffanydonner-profilepage.png)
-
-##Framework/Tech
-Bootstrap CDN
-Google Font
-Jquery
-Cloudflare
 
 ## Credits
 Royalty fee images from:
@@ -57,5 +35,5 @@ jumbotron: https://codepen.io/JacobLett/pen/LmWvLZ
 divider/skew: https://codepen.io/chilliconcode/pen/epQORa
 page image header: https://startbootstrap.com/snippets/full-image-header/
 
-#Copywrite
+#Copyright
 © Tiffany Donner
