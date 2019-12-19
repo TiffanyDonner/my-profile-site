@@ -11,8 +11,8 @@ The goal was to create a clean a personal website that was simple easy to naviga
 ![HTML5, CSS, Bootstap4](/assets/images/technologies.png "HTML5, CSS, Bootstap4")
 
 ## Features
-..* The site uses a fixed navbar for easy navigation
-..* The jumbrotron video uses z-index and positioning to provide an overlapping row.
+- The site uses a fixed navbar for easy navigation
+- The jumbrotron video uses z-index and positioning to provide an overlapping row.
 
 ### Future Feature Updates
 1. Activate the contact page to link to my email using JavaScript.
@@ -28,15 +28,10 @@ The site was tested across chrome, firefox, and internet explorer on multiple de
 The video displayed on the homepage is royalty fee from Pixabay. I used Kapwing to change the speed
 and Youcompress to change the file size.
 
-### Images
-All the images except my profile image are royalty fee images from pixabay
-https://pixabay.com/illustrations/web-design-mockup-web-developer-2188728/
-https://pixabay.com/videos/ink-water-color-colorful-15452/
-profile page image: https://www.pxfuel.com/en/free-photo-qtnlp
 
 ## Acknowledgements
-..* For assistance on how to impliment a video in a jumbotron I turned  to Jacob Lett's [Codepen](https://codepen.io/JacobLett/pen/LmWvLZ).
-..* For clear information on linear-gradient and how to create a skewed page divider, I used 
+- For assistance on how to impliment a video in a jumbotron I turned  to Jacob Lett's [Codepen](https://codepen.io/JacobLett/pen/LmWvLZ).
+- For clear information on linear-gradient and how to create a skewed page divider, I used 
     Chilli con code's [Codepen](https://codepen.io/chilliconcode/pen/epQORa).
 
 #Copyright
