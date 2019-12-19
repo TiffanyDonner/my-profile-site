@@ -2,7 +2,7 @@
 body {
     font-family: 'Varela', sans-serif;
     color:#3a3028;
-    margin: 0px;
+    margin-top: 50px;
     }
 
 h1,h2,h3,h4,h5,h6 {
@@ -63,8 +63,6 @@ a:hover {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=3a3028');
     }
 
-
-
 /*jumbotron style*/
 .jumbotron {
   position: relative;
@@ -89,7 +87,7 @@ a:hover {
   z-index: 1;
   text-align: center;
   position: relative;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 @media only screen and (max-width: 600px) {
