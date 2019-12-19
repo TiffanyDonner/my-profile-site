@@ -37,6 +37,3 @@ and Youcompress to change the file size.
 - For assistance on how to impliment a video in a jumbotron I turned  to Jacob Lett's [Codepen](https://codepen.io/JacobLett/pen/LmWvLZ).
 - For clear information on linear-gradient and how to create a skewed page divider, I used 
     Chilli con code's [Codepen](https://codepen.io/chilliconcode/pen/epQORa).
-
-#Copyright
-© Tiffany Donner
