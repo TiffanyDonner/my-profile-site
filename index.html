@@ -9,14 +9,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Varela|Varela+Round|Zeyada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <!-- navbar main -->
-            <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="index.html">Tiffany Donner</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,35 +39,40 @@
 
     <!-- hero, jumbotron video -->
     <!--Code Help https://codepen.io/JacobLett/pen/LmWvLZ-->
-    <div class="jumbotron jumbotron-fluid">
-        <video autoplay loop poster> 
-            <source src="assets/video/ink-video3.mp4">
-        </video>
-        <div class="jumbo-container">
-            <h1>hello, i'm tiffany</h1>
-            <p>I like to create beautiful things, from nothing...</p>
+    <section class="jumbotron-container">
+        <div class="jumbotron jumbotron-fluid">
+            <video autoplay loop poster> 
+                <source src="assets/video/ink-video3.mp4">
+            </video>
+            <div class="jumbo-container">
+                <h1>hello, i'm tiffany</h1>
+                <p id="quote">I like to create beautiful things, from nothing...</p>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!--Skewed Background-->
     <!--Code Help https://codepen.io/chilliconcode/pen/epQORa-->
     <div class="skew-c"></div>
 
     <!-- about section -->
-    <div class="about-container">
-        <div class="row justify-content-center">             
-            <div class="image-container col-12 col-md-3">
-                <img src="assets/images/tiffanydonner.jpg" class="rounded-circle" alt="Profile Picture">
+    <section class="about-section">
+        <div class="about-container">
+            <div class="row justify-content-center">             
+                <div class="image-container col-12 col-md-3">
+                    <img src="assets/images/tiffanydonner.jpg" class="rounded-circle" alt="Profile Picture">
+                </div>
+                <div class="text-container col-12 col-md-6">
+                    <h2>Full Stack Web Developer...</h2>
+                    <p>A tenacious business professional that likes to think outside the box. I am passionate about people, nature, and enjoy building web platforms with a strong focus on User Experience.</p>
+                    <a class="btn btn-outline-info" href="profile.html" role="button">Bio</a>
+                    <a class="btn btn-outline-info" href="projects.html" role="button">Projects</a>
+                </div>
+                
             </div>
-            <div class="text-container col-12 col-md-6">
-                <h2>Full Stack Web Developer...</h2>
-                <p>A tenacious business professional that likes to think outside the box. I am passionate about people, nature, and enjoy building web platforms with a strong focus on User Experience.</p>
-                <a class="btn btn-outline-info" href="profile.html" role="button">Bio</a>
-                <a class="btn btn-outline-info" href="projects.html" role="button">Projects</a>
-            </div>
-            
         </div>
-    </div>
+    </section>
+
     <!-- footer --> 
     <footer class="container">
         <div id="footer-details" class="row">
@@ -99,8 +105,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-4">
-                <h5>© Scandinavian Technical Support</h5>
+            <div class="col-sm-4" id="copyright">
+                <h5>© Tiffany Donner</h5>
             </div>
         </div>
     </footer>

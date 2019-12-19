@@ -17,7 +17,8 @@ The goal was to create a clean a personal website that was simple easy to naviga
 ### Future Feature Updates
 1. Activate the contact page to link to my email using JavaScript.
 2. A Blog, a place where I can share as I learn and where I can post business tips.
-3. Add more projects that I complete in the future. :smile:
+3. Add featured blog post to homepage.
+4. Add more projects that I complete in the future. :smile:
 
 ## Testing
 The site was tested across chrome, firefox, and internet explorer on multiple device sizes.
