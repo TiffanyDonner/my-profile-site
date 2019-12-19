@@ -2,13 +2,13 @@
 First Milestone Project - User-Centric Frontend Development - Code Institute
 
 ## Demo
-Live demo can be found [TEXT TO SHOW](actual URL to navigate)
+![tiffaydonner.com](/assets/images/screencapture-tiffanydonner-profilepage.png "Screenshot of Homepage")
 
 ## UX
 The goal was to create a clean a personal website that was simple easy to navigate.
 
 ## Technologies
-![html5, css, bootstap4](file:///workspace/my-profile-site/assets/images/technologies.png "HTML5, CSS, Bootstrap4")
+![HTML5, CSS, Bootstap4](/assets/images/technologies.png "HTML5, CSS, Bootstap4")
 
 ## Framework
 Bootstrap CDN
