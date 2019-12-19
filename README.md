@@ -1,13 +1,27 @@
 # Tiffany Donner - Creative Consultant and Developer
-Clean and Simple. A personal website where I can display my future and current projects, with a format that 
-can be expanded on later. To highlight the HTML and CSS that I learned so far through code institue.
+First Milestone Project - User-Centric Frontend Development - Code Institute
+
+## Demo
+Live demo can be found [TEXT TO SHOW](actual URL to navigate)
+
+## UX
+The goal was to create a clean a personal website that was simple easy to navigate.
+
+## Technologies
+![html5, css, bootstap4](file:///workspace/my-profile-site/assets/images/technologies.png "HTML5, CSS, Bootstrap4")
+
+## Framework
+Bootstrap CDN
+Google Font
+Jquery
+Cloudflare
 
 What do you want your site to accomplish?
 Acts as a place for me to display my development projects as they are completed.
 Has the ability to grow as I do.
 This is not a personal website nothing will be sold promoted.
 
-## Motivation
+##Motivation
 This is my first project with code institute to exhibit what I have learn to date. 
 
 ##Future updates:
